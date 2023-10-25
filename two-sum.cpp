@@ -4,6 +4,7 @@ the obvious solution would be brute forcing it with for loops
 */
 
 class old_Solution{
+public:
     std::vector<int> twoSum(std::vector<int>& nums, int target){
         int n = nums.size();
         for(int i = 0; i<n; i++){
@@ -21,6 +22,7 @@ class old_Solution{
 
 #include <unordered_map>
 class Solution{
+public:
     std::vector<int> twoSum(std::vector<int>& nums, int target){
         std::unordered_map<int,int> hashmap; // a hashmap that saves element and index
         int n = nums.size();
